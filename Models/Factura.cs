@@ -10,7 +10,7 @@ namespace ProiectWeb.Models
     {
         public int ID { get; set; }
 
-        [Column(TypeName = "decimal(6, 2)")]
+        [Column(TypeName = "decimal(10, 2)")]
         public decimal suma { get; set; }
         [DataType(DataType.Date)]
         public DateTime Data { get; set; }
